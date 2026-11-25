@@ -16,6 +16,8 @@ WORD = "Subscription"
 
 
 def main() -> int:
+    if not WORD or not WORD.isalpha():
+        raise ValueError("entry must be exactly one word")
     out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "output"))
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "entry.txt").write_text(WORD + "\n", encoding="utf-8")
