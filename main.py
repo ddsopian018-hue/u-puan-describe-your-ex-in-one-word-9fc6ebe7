@@ -4,6 +4,9 @@
 Writes exactly one word to $MAKEFUN_OUTPUT_DIR/entry.txt, falling back
 to ./output/entry.txt when the variable is unset. The word is the whole
 entry: no punctuation tricks, no extra words, just the verdict.
+"Subscription" fits because the relationship kept auto-renewing long
+after anyone wanted it — a monthly charge for a service nobody uses,
+impossible to cancel without three phone calls and a guilt trip.
 """
 
 import os
